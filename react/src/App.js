@@ -23,6 +23,9 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h3>Hey there!</h3>
+        <div id="container">
+          <img src="laughing.png" alt="" />
+        </div>
         <div id="joke" className="joke">
           {joke}
         </div>
